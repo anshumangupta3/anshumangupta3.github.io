@@ -1,0 +1,83 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    color: 333;
+    font-family: "ff-tisa-web-pro", serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navigation {
+	color: #5a5a5a;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+
+.navigation li {
+	display: inline;
+	color: #ababab;
+}
+
+.tron {
+	padding: 176px 0 110px;
+	background-color: #f9f9f9;
+	text-align: center;
+	border 1px solid #eee;
+}
+
+.tron h1 {
+	margin: 0 0 16px;
+	font-size: 35px;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+.tron p {
+	margin: 0 auto 32px;
+	max-width: 750px;
+	color: #777;
+	font-size: 20px;
+}
+
+.tron container {
+	position: relative;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.credentials {
+	font-size: 18px;
+	display: table;
+	margin: 2rem auto;
+	font-weight: bold;
+}
+
+.credentials a {
+	color: #ababab;
+	border: 1px solid;
+	border-color: transparent;
+	display: table-cell;
+	padding: 1rem;
+	text-shadow: 0 0 0 #666;
+	width: 50s%;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.credentials a:first-child {
+	border-radius: 6px 6px 0 0;
+}
+
+.credentials a:last-child {
+	border-radius: 0 0 6px 6px;
+}
